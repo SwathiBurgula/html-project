@@ -1,0 +1,64 @@
+.books{
+    background-color: darkblue;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: 0.1s;
+    width: 80px;
+    height: 50px;
+    margin-top:50px;
+    margin-left: 160px;
+    padding: 120px;
+    display: inline-block;
+}
+.bookpod h1{
+    margin-top: 2px;
+}
+.cat{
+    font-size: 50px;
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+}
+.books:hover{
+    transform: translateY(.0.5%);
+    box-shadow: 0 8rem 8rem rgba(0, 0, 0.4, 0.4);
+}
+.books-top{
+    padding: 0px;
+    margin-top: -110px;
+    margin-left: -110px;
+}
+.books-bot{
+    margin-left: -80px;
+    margin-top: -1px;
+    text-align: center;
+    color: rgb(250, 249, 255);
+}
+.books-bot .novel{
+    margin-left: 40px;
+    text-decoration: none;
+}
+.books-bot .det{
+    margin-left: 30px;
+}
+.books-bot .short{
+    margin-left: 10px;
+}
+.books-bot .women{
+    margin-left: 36px;
+}
+.books-bot .bio{
+    margin-left: 15px;
+}
+.books-bot .cen{
+    margin-left: 30px;
+}
+.books-bot .true{
+    margin-left: 30px;
+}
+.books-bot .susp{
+    margin-left: 40px;
+}
